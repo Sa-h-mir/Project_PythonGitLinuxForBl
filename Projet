@@ -1,0 +1,5 @@
+# Je télécharge le contenu de la page
+curl -s https://www.zonebourse.com/cours/indice/CAC-40-4941/ > cac40.htmlhttps://github.com/Sa-h-mir/Project_PythonGitLinuxForBl/tree/main
+
+# J'extrait le cours actuel en utilisant grep et sed
+grep -oP '(?<=<span class="last">)[^<]+' cac40.html
