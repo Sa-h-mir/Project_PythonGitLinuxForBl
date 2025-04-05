@@ -1,0 +1,16 @@
+project-cac40-scraper/
+├── README.md
+├── requirements.txt
+├── scraper/
+│   └── scrape_zonebourse.sh          
+├── data/
+│   └── cac40_data.csv                # Données sauvegardées
+├── dashboard/
+│   └── app.py                        # Application Dash
+├── reports/
+│   └── daily_report_YYYYMMDD.txt     # Rapport généré à 20h
+├── cron/
+│   ├── crontab_scrape                # Contenu pour crontab scraping
+│   └── crontab_report                # Contenu pour crontab rapport
+└── deploy/
+    └── aws_setup.md                  # Notes pour le déploiement AWS
