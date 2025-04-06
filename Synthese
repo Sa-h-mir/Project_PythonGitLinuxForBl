@@ -3,5 +3,3 @@ project/
 ├── data/           # Contient les CSV (historique + daily)
 ├── dashboard/      # Contient le code Dash pour créer un dashboard
 ├── cron/           # Fichier crontab
-└── README.md
-
